@@ -4,3 +4,4 @@ Links to be added soon...<br>
 
 ## Moving around
 - [0x00](./0x00-python_assignments) : Python assignments🐍🐍.<br>
+- [0x01](./0x01-c_assignments) : C assignments. <br>
