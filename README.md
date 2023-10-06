@@ -1,7 +1,6 @@
-# CS Programming languages
-Repo for Programming Languages unit for CS 2.1<br>
+# Computer Science
+Repo for Computer Science units<br>
 Links to be added soon...<br>
 
 ## Moving around
-- [0x00](./0x00-python_assignments) : Python assignments🐍🐍.<br>
-- [0x01](./0x01-c_assignments) : C assignments. <br>
+- [2.1](./2.1) : Year 2 Semester 1.<br>
