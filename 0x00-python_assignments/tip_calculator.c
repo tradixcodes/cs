@@ -1,3 +1,4 @@
+#include <stdio.h>
 /*
  * tip_calculator - function that calculates the tip and adds to the total bill
  * 
