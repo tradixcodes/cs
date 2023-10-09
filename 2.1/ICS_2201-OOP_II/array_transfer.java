@@ -1,4 +1,4 @@
-public class Main {
+public class array_tranfer {
     public static void transferArray(int[] arr1, int[] arr2, int n) {
         for (int i = 0; i < n; i++) {
             arr2[i] = arr1[i];
@@ -20,7 +20,7 @@ public class Main {
             }
         }
 
-        // Print the sorted array
+        // Print the last element of the sorted array
         System.out.println(arr[n - 1]);
     }
 
