@@ -1,4 +1,4 @@
-public class AddElementsToMultidimensionalArray {
+public class multidimensional_arrays {
     public static void main(String[] args) {
         // Create a 2D array
         int[][] matrix = new int[3][3];
