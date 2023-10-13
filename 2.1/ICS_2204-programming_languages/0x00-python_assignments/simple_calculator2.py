@@ -1,3 +1,6 @@
+# SCT211-0009/2022
+# Njoroge Kanyagia
+
 import datetime
 
 def get_date_difference(current_date, birthday):

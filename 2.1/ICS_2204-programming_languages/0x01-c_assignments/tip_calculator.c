@@ -1,5 +1,8 @@
 #include <stdio.h>
-/*
+/**
+ * SCT211-0009/2022
+ * Njoroge Kanyagia
+ * 
  * tip_calculator - function that calculates the tip and adds to the total bill
  * 
  * @bill: parameter for charge of services offered

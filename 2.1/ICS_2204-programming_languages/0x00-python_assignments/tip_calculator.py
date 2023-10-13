@@ -1,3 +1,6 @@
+# SCT211-0009/2022
+# Njoroge Kanyagia
+
 def tip_calculator(bill, tip_percentage):
     tip_amount = bill * tip_percentage
     total_bill = tip_amount + bill
