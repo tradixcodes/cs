@@ -1,3 +1,6 @@
+// SCT211-0009/2022
+// Njoroge Kanyagia 
+
 public class arraytranfer {
     public static void transferArray(int[] arr1, int[] arr2, int n) {
         for (int i = 0; i < n; i++) {
