@@ -1,3 +1,6 @@
+// SCT211-0009/2022
+// Njoroge Kanyagia
+
 import java.util.Scanner;
 
 public class bmi_calculator {
