@@ -1,0 +1,15 @@
+.redstring {
+    color: red;
+}
+
+.bluestring {
+    color: blue;
+}
+
+.csslink {
+    transition: color 0.4s;
+}
+
+.csslink:hover {
+    color: red;
+}

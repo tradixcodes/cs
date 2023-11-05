@@ -1,0 +1,53 @@
+.addtocart-button {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border: none;
+    height: 30px;
+    width: 120px;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.addtocart-button:active {
+    opacity: 0.4;
+}
+
+.buynow-button {
+    background-color: rgb(255, 164, 28);
+    color: black;
+    border: none;
+    height: 30px;
+    width: 120px;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.buynow-button:active {
+    opacity: 0.4;
+}
+
+.back_amazon {
+    transition: color 0.5s;
+}
+
+.back_amazon:hover {
+    color: rgb(193, 4, 4);
+}
+
+.green-text {
+    color: rgb(41, 159, 41);
+    font-weight: 600;
+}
+
+.nike_black {
+    font-size: larger;
+    font-weight: bolder;
+}
