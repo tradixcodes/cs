@@ -10,6 +10,11 @@
         font-size: 14px;
         margin-right: 8px;
         cursor: pointer;
+        transition: opacity 0.5s;
+    }
+
+    .addtocart-button:active {
+        opacity: 0.4;
     }
 
     .buynow-button {
@@ -23,21 +28,43 @@
         font-size: 14px;
         margin-right: 8px;
         cursor: pointer;
+        transition: opacity 0.5s;
     }
 
-    .backtoamazon_link {
-        color rgb (0, 113, 133);
+    .buynow-button:active {
+        opacity: 0.4;
+    }
+
+    .back_amazon {
+        transition: color 0.5s;
+    }
+
+    .back_amazon:hover {
+        color: rgb(193, 4, 4);
+    }
+
+    .green-text {
+        color: rgb(41, 159, 41);
+        font-weight: 600;
+    }
+
+    .nike_black {
+        font-size: larger;
+        font-weight: bolder;
     }
 </style>
-<a href = "https://www.amazon.com/?&tag=googleglobalp-20&ref=pd_sl_7nnedyywlk_e&adgrpid=82342659060&hvpone=&hvptwo=&hvadid=585475370855&hvpos=&hvnetw=g&hvrand=18317770711039777679&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9073682&hvtargid=kwd-10573980&hydadcr=2246_13468515" target="_blank" class = "backtoamazon_link">
+
+<a class = "back_amazon" href = "https://www.amazon.com/?&tag=googleglobalp-20&ref=pd_sl_7nnedyywlk_e&adgrpid=82342659060&hvpone=&hvptwo=&hvadid=585475370855&hvpos=&hvnetw=g&hvrand=18317770711039777679&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9073682&hvtargid=kwd-10573980&hydadcr=2246_13468515" target="_blank">
     Back to Amazon
 </a>
 
-<p>
+<p class = nike_black>
     Nike Black Running Shoes<br>
-    <br>
+</p>
+<p class = "green-text">
     $39 - in stock.<br>
-    <br>
+</p>
+<p>
     Free delivery to tomorrow.<br>
 </p>
 
