@@ -1,0 +1,124 @@
+<style>
+    .p {
+        font-family: Arial;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .bia {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+
+    .USD {
+        font-size: 10px;
+        font-weight: normal;
+        color: rgb(96, 96, 96);
+    }
+
+    .today {
+        margin-top: 5px;
+        color: limegreen;
+        margin-bottom: 5px;
+    }
+
+    .after-hours {
+        margin-top: 0px;
+        color: rgb(96, 96, 96);
+        margin-bottom: 100px;
+    }
+
+    .percentage {
+        color: red;
+    }
+
+    .new {
+        color: red;
+        text-align: center;
+        font-size: 10px;
+        font-weight: bold;
+        margin-bottom: 7px;
+    }
+
+    .macbook {
+        margin-top: 0;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center; 
+        margin-bottom: 0;
+    }
+
+    .statement {
+        margin-top: 7px;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .price {
+        margin-top: 7px;
+        font-size: 17px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .buy-button {
+        background-color: rgb(27, 113, 170);
+        color: white;
+        border-radius: 15px;
+        height: 30px;
+        border: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        transition: background-colour 0.3s, color 0.3s, box-shadow 0.15s, opacity 0.3s;
+
+    }
+
+    .buy-button:hover {
+        opacity: 0.9;
+    }
+
+    .buy-button:active {
+        background-color: white;
+        color: rgb(27, 113, 170);
+        box-shadow: 0 5px 10px  rgba(0, 0, 0, 0.25);
+    }
+
+    .container {
+        align-items: center; /*Center horizontally*/
+        justify-content: center; /*Center Vertically*/
+        display: flex; /*Allows us to center the container*/
+        height: 7vh; /*like margin-top*/
+        margin: 0;
+    }
+
+
+</style>
+<p class = "bia">
+    1,049.61 <span class = "USD">USD</span>
+</p>
+<p class = "today">
+    +18.05(1.75%) today
+</p>
+<p class = "after-hours">
+    After hours 1,048.00 <span class = "percentage">-1.61 (0.15%)</span>
+</p>
+
+<p class = "new">
+    New
+</p>
+<p class = "macbook">
+    MacBook Pro
+</p>
+<p class = "statement">
+    Supercharged for pros.
+</p>
+<p class = "price">
+    From $1999
+</p>
+<div class = "container">
+    <button class ="buy-button">
+       <strong> Buy </strong> 
+    </button>
+</div>
