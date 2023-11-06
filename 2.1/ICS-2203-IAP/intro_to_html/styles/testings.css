@@ -1,0 +1,20 @@
+.redstring {
+    color: red;
+}
+
+.bluestring {
+    color: blue;
+}
+
+.csslink {
+    transition: color 0.4s;
+}
+
+.csslink:hover {
+    color: red;
+}
+
+.search-bar {
+    font-size: 20px;
+    margin-left: 2px;
+}

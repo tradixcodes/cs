@@ -1,3 +1,6 @@
+## SCT211-0009/2022
+## Njoroge Kanyagia
+
 def bmicalculator(h, w):
     bmi = w / (h ** 2)
     

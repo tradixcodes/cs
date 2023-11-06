@@ -1,3 +1,6 @@
+// SCT211-0009/2022
+// Njoroge Kanyagia
+
 public class multidimensional_arrays {
     public static void main(String[] args) {
         // Create a 2D array
