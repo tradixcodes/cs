@@ -13,3 +13,8 @@
 .csslink:hover {
     color: red;
 }
+
+.search-bar {
+    font-size: 20px;
+    margin-left: 2px;
+}
