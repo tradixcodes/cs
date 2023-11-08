@@ -10,7 +10,7 @@ public class basic_calc2 {
         Scanner basic_calc2Scanner = new Scanner(System.in); 
         /*
          * Scanner: is a class provides methods for reading input of various types
-         * scanner/basic_calc2Scanner: the name of the variable you are creating to reference the Scanner object
+         * scanner/basic_calc2Scanner: the name of the class you are creating to reference the Scanner object
          * new Scanner(System.in): Specifies that the scanner should read input from the standard input
          */
 
