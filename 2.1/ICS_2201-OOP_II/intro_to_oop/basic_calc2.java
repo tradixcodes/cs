@@ -17,11 +17,11 @@ public class basic_calc2 {
         System.out.println("***************************");
         System.out.println("!Welcome to my calculator!");
         System.out.print("Enter the first number: ");
-        int num1 = basic_calc2Scanner.nextInt();
+        double num1 = basic_calc2Scanner.nextDouble();
         
         System.out.write('\n');
         System.out.print("Enter the second number: ");
-        int num2 = basic_calc2Scanner.nextInt();
+        double num2 = basic_calc2Scanner.nextDouble();
         
         System.out.write('\n');
         System.out.print("Enter the desired operation(*,/,+,-): ");
@@ -76,7 +76,7 @@ public class basic_calc2 {
             System.out.println("Invalid input");
         }
 
-        System.out.println("Thanks for using our calculator");
+        System.out.println("Thanks for using my calculator");
         basic_calc2Scanner.close();
     }      
 }
