@@ -5,7 +5,7 @@ public class examples {
     * This age will be used through out the class
     * If a variable is declared and not assigned a value Java will automatically assign 0 to the variable
     * The main method can only use static data types, try using int age instead
-    * This class thin is wierd but I'll get the hang of it
+    * This class thing is wierd but I'll get the hang of it
     */
     public static void main(String[] args) {
         /*
