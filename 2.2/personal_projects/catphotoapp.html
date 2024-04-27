@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>CatPhotoApp</title>
+    </head>
+    <body>
+        <h1>CatPhotoApp</h1>
+        <section>
+            <h2>Cat Photos</h2>
+            <p>See more <a href = "https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg">cat photos</a> in our gallery</p>
+            <img src = "https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt = "An orange cat lying on its back">
+        </section>
+        <section>
+            <h2>Cat Lists</h2>
+            <h3>Things cats love:</h3>
+            <ul>
+                <li>cat nip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+            <figure>
+                <img src = "https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+                <figcaption>Cats <em>love</em> lasagna</figcaption>
+                <!--<em></em> or <i></i> use to italicise-->
+            </figure>
+            <h3>Top 3 things cats hate:</h3>
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+                <figure>
+                    <img src = "https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">"
+                    <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+                    <!--<b></b> and <strong></strong> are used to bold characters in html docs-->
+                </figure>
+        </section>
+        <section>
+            <h2>Cat Form</h2>
+            <form>
+                <fieldset>
+                    <legend>Is your cat an indoor or outdoor cat?</legend>
+                    <input type = "radio" id = "indoor" value = "Indoor" name = "indoor-outdoor" checked>
+                    <label for = "indoor">Indoor</label>
+                    <input type = "radio" id = "outdoor" value = "Outdoor" name = "indoor-outdoor" >
+                    <label for = "indoor">Outdoor</label>
+                </fieldset>
+            </form>
+            <form>
+                <fieldset>
+                <legend>What's your cat's personality?</legend>
+                <input type = "checkbox" id = "loving" value = "Loving" checked>
+                <label for = "loving">Loving</label>
+                <input type = "checkbox" id = "lazy" value = "Lazy">
+                <label for = "lazy">Lazy</label>
+                <input type = "checkbox" id = "energetic" value = "Energetic">
+                <label for = "energetic">Energetic</label>
+                </fieldset>
+            </form>
+            <input type = "text" name = "catphotourl" placeholder = "cat photo URL" required>
+            <button type = "submit">Submit</button>
+            <!-- I had completely forgotten about input attributes, button attributes, i didn't know 
+            one can have <p> </p> at the footer
+            -->
+        </section>
+        <footer>
+            <p>
+                No Copyright - <a href = "https://freecodecamp.org">freeCodeCamp.org</a>
+            </p>
+        </footer>
+    </body>
+</html>
