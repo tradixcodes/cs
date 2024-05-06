@@ -1,0 +1,97 @@
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    display: block;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1, h2 {
+    font-family: Impact, serif;
+}
+h1, h2, p {
+    text-align: center;
+}
+.established {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* #id is used for id
+ * .class is used for class
+ */
+
+.menu{
+    background-color: #deb887;
+    width: 80%;
+    /*makes the menu class, 80% smaller than the parent element which is body */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+body{
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.flavour, .dessert{
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+.bottom-line{
+    margin-top: 25px;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+a {
+    color:black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
+
+footer {
+    font-size: 14px;
+}
+
+.address {
+    margin-bottom: 5px;
+}
