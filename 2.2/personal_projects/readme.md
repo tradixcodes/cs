@@ -1,5 +1,6 @@
 # CS Units 2.2
-This is my repository for 2.1 <br>
+This is my repository for my personal projects<br>
 
 ## Moving Around
-- [Personal Projects](./personal_projects) : These are my holiday projects to get in touch. <br>
+- [HTML](./html) : My HTML documents. <br>
+- [CSS](./html) : My CSS documents. <br>
