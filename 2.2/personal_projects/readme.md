@@ -4,3 +4,4 @@ This is my repository for my personal projects<br>
 ## Moving Around
 - [HTML](./html) : My HTML documents. <br>
 - [CSS](./html) : My CSS documents. <br>
+- [Machine Learning Project](./ml_project/): Machine Learning Project. <br>
