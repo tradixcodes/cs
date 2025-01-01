@@ -6,4 +6,4 @@ Links to be added soon...<br>
 - [1.2](./1.2) : Year 1 Semester 2.<br>
 - [2.1](./2.1) : Year 2 Semester 1.<br>
 - [2.2](./2.2) : Year 2 Semester 2.<br>
-- [3.1](./3.1) : Year 3 Semester 1.<br>
+- [3](./3) : Year 3.<br>
