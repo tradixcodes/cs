@@ -10,10 +10,13 @@ export default {
       colors: {
         primary: "#DAA520",
         secondary: "#f42c37",
-        brandYellow: "#fdc62e",
+        brandYellow: "#fdc62e", //this is for the watch.png
         brandGreen: "#2dcc6f",
         brandBlue: "#1376f4",
-        brandWhite: "#eeeeee"
+        brandRed: "#892066",
+        brandWhite: "#eeeeee",
+        champagneGold: '#F7E7CE', //footers or headers
+        yellowGold:'#F9D45B', //butttons
       },
       container: {
         center: true,
