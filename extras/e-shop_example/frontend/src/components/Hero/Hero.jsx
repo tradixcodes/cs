@@ -63,7 +63,7 @@ const Hero = () => {
                     <h1 className='text-5xl uppercase text-white dark:text-white/10
                     sm:text-[80px] md:text-[100px] xl:text-[150px] font-bold'>{data.title2}</h1>
                     <div>
-                      <Button text="Shop By Category" bgColor="bg-primary" textColor="text-white"/>
+                      <Button text="Shop Now" bgColor="bg-primary dark:bg-primary" textColor="text-white"/>
                     </div>
                   </div>
                   {/* Img section */}

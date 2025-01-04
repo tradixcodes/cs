@@ -20,7 +20,7 @@ const Category = () => {
                             <p className='text-4xl xl:text-5xl font-bold opacity-20 mb-2'>Earphones</p>
                             <Button
                             text="Browse"
-                            bgColor={"bg-myGrey"}
+                            bgColor={"bg-myGrey dark:bg-primary"}
                             textColor={"text-white"}
                             />
                         </div>
@@ -55,7 +55,7 @@ const Category = () => {
                         <div className='mb-4'>
                             <p className='mb-[2px] text-white'>Enjoy</p>
                             <p className='text-2xl font-semibold mb-[2px]'>With</p>
-                            <p className='text-4xl xl:text-5xl font-bold opacity-60 mb-2'>Laptops</p>
+                            <p className='text-4xl xl:text-5xl font-bold opacity-50 mb-2'>Laptops</p>
                             <Button
                             text="Browse"
                             bgColor={"bg-white"}
