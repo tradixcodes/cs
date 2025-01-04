@@ -20,7 +20,7 @@ const Category = () => {
                             <p className='text-4xl xl:text-5xl font-bold opacity-60 mb-2'>Consoles</p>
                             <Button
                             text="Browse"
-                            bgColor={"bg-primary"}
+                            bgColor={"bg-myGrey"}
                             textColor={"text-white"}
                             />
                         </div>

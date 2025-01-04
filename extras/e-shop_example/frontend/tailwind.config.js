@@ -15,8 +15,9 @@ export default {
         brandBlue: "#1376f4",
         brandRed: "#892066",
         brandWhite: "#eeeeee",
-        champagneGold: '#F7E7CE', //footers or headers
-        yellowGold:'#F9D45B', //butttons
+        champagneGold: '#F7E7CE', //primary
+        yellowGold:'#F9D45B', //main actions to call
+        myGrey:'#0C2639', //secondary also other actions to call
       },
       container: {
         center: true,
