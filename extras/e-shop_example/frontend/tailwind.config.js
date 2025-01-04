@@ -14,6 +14,7 @@ export default {
         brandGreen: "#2dcc6f",
         brandBlue: "#1376f4",
         brandRed: "#892066",
+        brandPink:"#A41045",
         brandWhite: "#eeeeee",
         champagneGold: '#F7E7CE', //primary
         yellowGold:'#F9D45B', //main actions to call
