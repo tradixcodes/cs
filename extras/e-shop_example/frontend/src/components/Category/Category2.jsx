@@ -10,7 +10,7 @@ const Category = () => {
         <div className='container'>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8'>
                 {/* third column (long)*/}
-                <div className='col-span-2 py-10 pl-5 bg-gradient-to-br from-gray-400/90
+                <div className='sm:col-span-2 py-10 pl-5 bg-gradient-to-br from-gray-400/90
                  to-gray-100 text-white rounded-3xl relative h-[320px]
                  flex items-end'>
                     <div>

@@ -48,7 +48,7 @@ const Category = () => {
                     className='w-[320px] absolute -right-4 lg:top-[40px]'/>
                 </div>
                 {/* third column (long) */}
-                <div className='col-span-2 py-10 pl-5 bg-gradient-to-br from-brandRed
+                <div className='sm:col-span-2 py-10 pl-5 bg-gradient-to-br from-brandRed
                  to-brandRed/90 text-white rounded-3xl relative h-[320px]
                  flex items-end'>
                     <div>

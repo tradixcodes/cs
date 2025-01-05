@@ -12,18 +12,21 @@ const BlogData = [
         subtitle:"The issue we have to deal with the market is we can only buy what is currently available. So, we have to get out of the fit-in mentality and actually chase our dreams/dream situation",
         published:"Jan 4th, 2025 by Tradix",
         image: Img1,
+        aosDelay: '0',
     },
     {
         title:"How to choose perfect gadget",
         subtitle:"It heavily depends with the user's needs. We don't see to see how much we are being ripped off from such simple intelligence from goods that can actually choose to fail us tomorrow. Nothing in business is special, it's just the one that exists and serves the purpose you need",
         published:"Jan 4th, 2025 by Kanyagia",
         image: Img2,
+        aosDelay: '200',
     },
     {
         title:"How to choose perfect VR Headset",
         subtitle:"I don't know much about VR Headsets, but the fact you are buying this means you have alot of skill/money or you live in a rich country",
         published:"Jan 4th, 2025 by John",
         image: Img3,
+        aosDelay: '400',
     },
 ]
 
@@ -40,7 +43,9 @@ const Blogs = () => {
             md:grid-cols-3 gap-6 gap-y-8 sm:gap-4 md:gap-7'>
                 {/* {Blog Card } */}
                 {BlogData.map((data) => (
-                    <div key= {data.title} className='bg-white dark:bg-gray-900'>
+                    <div 
+                        data-aos="fade-up" data-aos-delay={data.aosDelay}
+                        key={data.title} className='bg-white dark:bg-gray-900'>
                         {/* {image section } */}
                         <div className="overflow-hidden rounded-2xl mb-2">
                             <img src={data.image} alt=""
