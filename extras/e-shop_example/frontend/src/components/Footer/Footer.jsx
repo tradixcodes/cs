@@ -46,6 +46,7 @@ const Footer = () => {
                     target="_blank"
                     className="inline-block bg-myGrey dark:bg-primary text-white py-2 px-4 text-sm rounded-full">Visit my Page</a>
                 </div>
+                
                 {/* Footer links  */}
                 <div className='col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10
                 '>
@@ -77,38 +78,38 @@ const Footer = () => {
                                     </li>                                
                             ))}
                         </ul>
-                    </div>                    
-                </div>
-                {/* Company Address */}
-                <div className='py-8 px-4 col-span-2 sm:col-auto'>
-                    <h1 className='text-xl font-bold sm:text-left mb-3'>Address</h1>
-                    <div>
-                        <div className="flex items-center gap-3">
-                            <FaLocationArrow />
-                            <p>Nairobi, Kenya</p>                            
-                        </div>
-                        <div className="flex items-center gap-3 mt-6">
-                            <FaMobileAlt />
-                            <p>+254747466852</p>
-                            {/* <p>Kenya</p> */}
-                        </div>
-                        {/* Social links */}
-                        <div className='flex item-center gap-3 mt-6'>
-                            <a href="#">
-                                <FaInstagram className="text-3xl hover:text-myGrey
-                                 dark:hover:text-primary duration-300" />
-                            </a>
-                            <a href="#">
-                                <FaFacebook className="text-3xl hover:text-myGrey
-                                 dark:hover:text-primary duration-300" />
-                            </a>
-                            <a href="#">
-                                <FaLinkedin className="text-3xl hover:text-myGrey
-                                 dark:hover:text-primary duration-300" />
-                            </a>
-                        </div>
                     </div>
-                </div>
+                    {/* Company Address */}
+                    <div className='py-8 px-4 col-span-2 sm:col-auto'>
+                        <h1 className='text-xl font-bold sm:text-left mb-3'>Address</h1>
+                        <div>
+                            <div className="flex items-center gap-3">
+                                <FaLocationArrow />
+                                <p>Nairobi, Kenya</p>                            
+                            </div>
+                            <div className="flex items-center gap-3 mt-6">
+                                <FaMobileAlt />
+                                <p>+254747466852</p>
+                                {/* <p>Kenya</p> */}
+                            </div>
+                            {/* Social links */}
+                            <div className='flex item-center gap-3 mt-6'>
+                                <a href="#">
+                                    <FaInstagram className="text-3xl hover:text-myGrey
+                                     dark:hover:text-primary duration-300" />
+                                </a>
+                                <a href="#">
+                                    <FaFacebook className="text-3xl hover:text-myGrey
+                                     dark:hover:text-primary duration-300" />
+                                </a>
+                                <a href="#">
+                                    <FaLinkedin className="text-3xl hover:text-myGrey
+                                     dark:hover:text-primary duration-300" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>                
             </div>                    
         </div>
     </div>
